@@ -1,0 +1,17 @@
+body{
+  background: url(https://daytripsontario.files.wordpress.com/2015/07/aimg_3663-copy.jpg);
+  background-repeat: repeat;
+}
+div{
+  background-color: blue;
+  border-color: orange;
+  border-width: 2px;
+  border-style: dotted;
+}
+p{
+  color: yellow;
+}
+span{
+  background: red;
+  color: black;
+}
