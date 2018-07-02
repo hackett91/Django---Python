@@ -1,0 +1,30 @@
+
+/* classes can be accross multiple elements whereas ids are generally accross single elements */
+/* classes use a dot
+ids use a hashtag */
+/* asterisk tries to overide everything */
+
+
+.firstDiv{
+  color: blue;
+}
+.secondDiv{
+  color: red;
+}
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+*{
+  color: black;
+}
+/* This says select all the element in an unordered list after a h3 element */
+h3 + ul {
+  border: 4px dotted purple;
+}
+/* if you want to select all anchor tags that are inside a list you just write them beside each other */
+li a[href="www.npr.org"]{
+  color: red;
+  border: 5px solid orange;
+}
