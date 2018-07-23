@@ -1,0 +1,16 @@
+body{
+  background-color: #2e5cb8;
+  text-align: center;
+  border-left: 50px solid #4dffff;
+  border-right: 50px solid #4dffff;
+  border-bottom: 50px solid #4dffff;
+  border-top: 0px;
+  padding: 20px;
+  color: white;
+}
+
+#button{
+  background-color: yellow;
+  border-radius: 12px;
+  height: 50px;
+}
